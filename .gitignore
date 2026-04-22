@@ -1,0 +1,74 @@
+# ──────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ──────────────────────────────────────────
+# Virtual Environments
+# ──────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ──────────────────────────────────────────
+# Jupyter Notebook
+# ──────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ──────────────────────────────────────────
+# Data & Model Files (large / sensitive)
+# ──────────────────────────────────────────
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.model
+*.joblib
+
+# ──────────────────────────────────────────
+# API Keys & Secrets
+# ──────────────────────────────────────────
+.env
+*.env
+secrets.py
+config_local.py
+
+# ──────────────────────────────────────────
+# OS & Editor Junk
+# ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ──────────────────────────────────────────
+# Logs & temp
+# ──────────────────────────────────────────
+*.log
+*.tmp
+*.bak
